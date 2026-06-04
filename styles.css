@@ -1,0 +1,74 @@
+body {
+  background: #202c59;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 30px;
+  background:#f4f3ee;
+  border-radius: 15px; }
+
+@font-face {
+  font-family: 'KG Red Hands';
+  src: url('fonts/KGRedhands.ttf') format('truetype');
+}
+
+body {
+  font-family: 'KG Red Hands', sans-serif;
+}
+
+p, h1, h2, h4, marquee {
+  color: #202c59;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+nav{
+  background: #a30b37;
+  padding : 1rem;
+  width: calc(100% + 60px); /* 30px left + 30px right padding */
+  margin-left: -30px;
+  margin-right: -30px;
+  box-sizing: border-box;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+nav ul li {
+  display: inline;
+}
+nav ul li a {
+  color: #f4f3ee;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+.pagedoll {
+  position: fixed !important;   /* float outside the cream box */
+  right: 0;
+  bottom: 0;
+  width: 250px;                 /* set the exact size you want */
+  height: auto !important;      /* keep proportions */
+  max-width: none !important;   /* stop Nekoweb from stretching it */
+  z-index: 9999;                /* keep it above everything */
+}
+footer {
+  color: #f4f3ee; /* light cream color */
+  background-color: #3f4c7a; /* same deep red tone */
+  padding: 10px;
+  text-align: center;       /* center the text inside */
+  width: calc(100% + 60px); /* 30px left + 30px right padding */
+  margin-left: -30px;
+  margin-right: -30px;
+  box-sizing: border-box;
+}
+body {
+  margin-top: 40px;
+  padding-bottom: 60px;
+}
