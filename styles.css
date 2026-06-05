@@ -1,5 +1,5 @@
 body {
-  background: url('https://i.pinimg.com/1200x/52/4f/d4/524fd4ff7d4ec0becb1041a0d8076ce7.jpg') no-repeat center center fixed;
+  background: url('https://files.catbox.moe/z1fpgx.jpg') no-repeat center center fixed;
   background-size: cover;
   background-position: center;
 }
@@ -58,6 +58,7 @@ nav ul li a {
   height: auto !important;      /* keep proportions */
   max-width: none !important;   /* stop Nekoweb from stretching it */
   z-index: 9999;                /* keep it above everything */
+  
 }
 footer {
   color: #f4f3ee; /* light cream color */
@@ -72,4 +73,31 @@ footer {
 body {
   margin-top: 40px;
   padding-bottom: 60px;
+}
+.me {
+  display: flex;
+  align-items:start;
+}
+.fan {
+  max-width: 150px;
+  height: auto;
+  margin-right: 20px;
+}
+.myfrikin-about {
+  flex: 1;
+}
+.linkks {
+  color: #a30b37; /* default link color */
+}
+.linkks:link {
+  color: #a30b37; /* unvisited link */
+}
+.linkks:visited {
+  color: #a30b37; /* visited link */
+}
+.linkks:hover {
+  color: #a30b37; /* hover link */
+}
+.linkks:active {
+  color: #a30b37; /* active link */
 }
