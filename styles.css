@@ -1,7 +1,8 @@
 body {
-  background: #202c59;
+  background: url('https://i.pinimg.com/1200x/52/4f/d4/524fd4ff7d4ec0becb1041a0d8076ce7.jpg') no-repeat center center fixed;
+  background-size: cover;
+  background-position: center;
 }
-
 .container {
   max-width: 900px;
   margin: auto;
