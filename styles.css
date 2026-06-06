@@ -101,3 +101,7 @@ body {
 .linkks:active {
   color: #a30b37; /* active link */
 }
+/* Hide the StrawPage promo button */
+a[href*="straw.page/make"] {
+  display: none !important;
+}
