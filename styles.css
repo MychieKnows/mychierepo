@@ -105,3 +105,15 @@ body {
 a[href*="straw.page/make"] {
   display: none !important;
 }
+.video-container {
+  max-width: 800px;   /* your preferred desktop size */
+  width: 100%;        /* shrink fluidly on smaller screens */
+  margin: 0 auto;     /* center it */
+}
+
+.video-container iframe {
+  width: 60%;        /* fill wrapper */
+  height: auto;       /* keep proportions */
+  aspect-ratio: 16 / 9; /* modern browsers keep 16:9 ratio */
+}
+
