@@ -116,4 +116,13 @@ a[href*="straw.page/make"] {
   height: auto;       /* keep proportions */
   aspect-ratio: 16 / 9; /* modern browsers keep 16:9 ratio */
 }
-
+body {
+  cursor: url('https://files.catbox.moe/s3reux.png'), auto;
+}
+a:hover,
+button:hover,
+input:hover,
+textarea:hover,
+select:hover {
+  cursor: url('https://files.catbox.moe/s3reux.png'), auto;
+}
