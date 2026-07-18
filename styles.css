@@ -79,7 +79,7 @@ body {
   align-items:start;
 }
 .fan {
-  max-width: 150px;
+  max-width: 170px;
   height: auto;
   margin-right: 20px;
 }
@@ -113,7 +113,7 @@ a[href*="straw.page/make"] {
 
 .video-container iframe {
   width: 60%;        /* fill wrapper */
-  height: auto;       /* keep proportions */
+  height: auto;      /* keep proportions */
   aspect-ratio: 16 / 9; /* modern browsers keep 16:9 ratio */
 }
 body {
@@ -125,4 +125,10 @@ input:hover,
 textarea:hover,
 select:hover {
   cursor: url('https://files.catbox.moe/s3reux.png'), auto;
+}
+.petalcloud {
+  width: 70%;        /* fill the container */
+  max-width: 800px;   /* but don’t exceed desktop size */
+  margin: 0 auto;     /* center it */
+  box-sizing: border-box; /* keep padding/borders inside width */
 }
