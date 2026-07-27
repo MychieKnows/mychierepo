@@ -19,7 +19,7 @@ body {
   font-family: 'KG Red Hands', sans-serif;
 }
 
-p, h1, h2, h4, marquee {
+p, h1, h2, h4, marquee, summary {
   color: #202c59;
 }
 
