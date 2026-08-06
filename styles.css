@@ -49,6 +49,10 @@ nav ul li a {
   color: #f4f3ee;
   text-decoration: none;
   font-size: 1.2rem;
+  transition: color 0.3s ease;
+}
+nav ul li a:hover {
+  color: #5f0231;
 }
 .pagedoll {
   position: fixed !important;   /* float outside the cream box */
@@ -88,6 +92,7 @@ body {
 }
 .linkks {
   color: #a30b37; /* default link color */
+  transition: color 0.3s ease; /* smooth transition for hover effect */
 }
 .linkks:link {
   color: #a30b37; /* unvisited link */
@@ -96,7 +101,7 @@ body {
   color: #a30b37; /* visited link */
 }
 .linkks:hover {
-  color: #a30b37; /* hover link */
+  color: #5f0231; /* hover link */
 }
 .linkks:active {
   color: #a30b37; /* active link */
