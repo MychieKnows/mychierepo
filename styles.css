@@ -11,12 +11,15 @@ body {
   border-radius: 15px; }
 
 @font-face {
-  font-family: 'KG Red Hands';
-  src: url('fonts/KGRedhands.ttf') format('truetype');
+  font-family: "KG Red Hands";
+  src: url("/fonts/KGRedhands.woff2") format("woff2"),
+       url("/fonts/KGRedhands.woff") format("woff"),
+       url("/fonts/KGRedhands.ttf") format("truetype");
 }
 
 body {
-  font-family: 'KG Red Hands', sans-serif;
+  font-family: "KG Red Hands", sans-serif;
+
 }
 
 p, h1, h2, h4, marquee, summary {
@@ -49,7 +52,7 @@ nav ul li a {
   color: #f4f3ee;
   text-decoration: none;
   font-size: 1.2rem;
-  transition: color 0.3s ease;
+  transition: color 0.3s ease-out; /* smooth transition for hover effect */
 }
 nav ul li a:hover {
   color: #5f0231;
@@ -92,7 +95,7 @@ body {
 }
 .linkks {
   color: #a30b37; /* default link color */
-  transition: color 0.3s ease; /* smooth transition for hover effect */
+  transition: color 0.3s ease-out; /* smooth transition for hover effect */
 }
 .linkks:link {
   color: #a30b37; /* unvisited link */
@@ -140,8 +143,8 @@ select:hover {
 #statuscafe {
     padding: .5em;
     background-color: #f0ede6;
-    border: 2px solid #a30b37;
-    color: #202c59;
+    /*border: 2px solid #a30b37;*/
+    color: #a30b37;
 }
 #statuscafe-username {
     margin-bottom: .5em;
@@ -149,5 +152,14 @@ select:hover {
 }
 #statuscafe-content {
     margin: 0 1em 0.5em 1em;
-    color: #202c59;
+    color: #a30b37;
+}
+#statuscafe a {
+  color: #5f0231;   /* pick any hex color */
+  text-decoration: none; /* optional: removes underline */
+  transition: color 0.3s ease-out; /* optional: smooth transition for hover effect */
+}
+
+#statuscafe a:hover {
+  color: #202c59;   /* hover color */
 }
