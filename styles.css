@@ -134,6 +134,27 @@ textarea:hover,
 select:hover {
   cursor: url('https://files.catbox.moe/s3reux.png'), auto;
 }
+.POOOPPbox {
+  background-color: #f0ede6;
+  padding: 1em;
+  border: 2px solid #3f4c7a;
+  border-radius: 15px;
+  margin-bottom: 10px;
+  width: 70%;
+  height: 200px;
+
+  /* Key additions */
+  overflow-y: auto;   /* vertical scroll if content is taller */
+  overflow-x: hidden; /* prevent horizontal overflow */
+  box-sizing: border-box; /* keeps padding inside width/height */
+}
+.ooicon {
+  /*border-radius: 50%;*/
+  transition: transform 0.3s ease-out; /* smooth transition for hover effect */
+}
+.ooicon:hover {
+  transform: scale(1.1); /* slightly enlarge the image on hover */
+}
 .petalcloud {
   width: 70%;        /* fill the container */
   max-width: 800px;   /* but don’t exceed desktop size */
@@ -162,4 +183,11 @@ select:hover {
 
 #statuscafe a:hover {
   color: #202c59;   /* hover color */
+}
+.butt {
+  height: 31px;
+    transition: height 0.2s ease-out; /* smooth transition for hover effect */
+}
+.butt:hover {
+  height: 33px;
 }
