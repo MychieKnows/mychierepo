@@ -22,7 +22,7 @@ body {
 
 }
 
-p, h1, h2, h4, marquee, summary {
+p, h1, h2, h3, h4, marquee, summary {
   color: #202c59;
 }
 
@@ -141,7 +141,7 @@ select:hover {
   border-radius: 15px;
   margin-bottom: 10px;
   width: 70%;
-  height: 200px;
+  height: 350px;
 
   /* Key additions */
   overflow-y: auto;   /* vertical scroll if content is taller */
@@ -191,3 +191,4 @@ select:hover {
 .butt:hover {
   height: 33px;
 }
+
