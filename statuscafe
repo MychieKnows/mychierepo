@@ -4,12 +4,11 @@ body {
   background-position: center;
 }
 body {
-  font-family: "Schoolbell", cursive;
+  font-family: Schoolbell;
   color: #202c59;
 
 }
 @import url('https://fonts.googleapis.com/css2?family=Schoolbell&display=swap');
-
  a:link {
     color: #EBEDF7;
 
@@ -25,6 +24,7 @@ body {
 
   dt {
     display: none;
+
 }
   a:visited {
     color: white;
