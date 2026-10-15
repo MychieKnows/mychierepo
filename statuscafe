@@ -1,0 +1,48 @@
+body {
+  background: url('https://i.pinimg.com/736x/ea/6c/03/ea6c031456a3b74a1149ab612f4ef0c4.jpg') no-repeat center center fixed;
+  background-size: cover;
+  background-position: center;
+}
+body {
+  font-family: "Schoolbell", cursive;
+  color: #202c59;
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Schoolbell&display=swap');
+
+ a:link {
+    color: #EBEDF7;
+
+
+    font-size: 12px;
+
+
+    text-decoration: none;
+
+
+  }
+
+
+  dt {
+    display: none;
+}
+  a:visited {
+    color: white;
+    font-size: 12px;
+    text-decoration: none;
+  }
+
+
+  a:active {
+    color: #EBEDF7;
+    font-size: 12px;
+    text-decoration: none;
+  }
+.status {
+  background-color: rgba(108, 167, 255, 0.3);
+  border-radius: 8px;
+  padding: 10px;
+}
+.email {
+    display: none;
+}
